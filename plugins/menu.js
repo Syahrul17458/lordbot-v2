@@ -31,7 +31,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭─回「 %me 」
+┌─❑「 %me 」
 │ Halo, %name! %ucapan
 │
 │ Tanggal: *%week %weton, %date*
@@ -42,11 +42,11 @@ const defaultMenu = {
 │ Database: %rtotalreg of %totalreg
 │ Github:
 │ github.com/Lord-Ammar/lordbot-v2
-╰─回
+└❏
 %readmore`.trimStart(),
-  header: '╭─回「 %category 」',
-  body: '├❥ %cmd %islimit %isPremium',
-  footer: '╰────\n',
+  header: '┌─❑「 %category 」',
+  body: '│◦➛ %cmd %islimit %isPremium',
+  footer: '└❏\n',
   after: `
 *%npmname@^%version*
 ${'```%npmdesc```'}
